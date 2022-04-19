@@ -1,1 +1,1 @@
-alert('A javascript file has been loaded')
+alert('File loaded')

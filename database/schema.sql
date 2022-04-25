@@ -4,12 +4,6 @@ CREATE TABLE users(
       email VARCHAR(50) NOT NULL UNIQUE,
       premium_id int);
 
-CREATE TABLE premium (
-      id int PRIMARY KEY NOT NULL,
-      users_id int NOT NULL,
-      level int NOT NULL,
-      date_start_membership DATE NOT NULL);
-
 CREATE TABLE threads (
       id int PRIMARY KEY NOT NULL,
       theme VARCHAR(20) NOT NULL,

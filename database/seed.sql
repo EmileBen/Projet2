@@ -7,8 +7,8 @@ VALUES (0, 'Emile Benveniste', 'emilebenveniste@gmail.com'),
        
 
 INSERT INTO threads (id, theme, topic, creator_id)
-VALUES (0, 'General', 'Why are things called what they are called ?', 0),
-       (1, 'Film', 'Pirates of the caribbean is the best movie.', 1);
+VALUES (0, 'Book', 'Story of the book', 0),
+       (1, 'Movie', 'Story of the movie', 1);
 
 
 INSERT INTO messages (id, thread_id, message, creator_id)

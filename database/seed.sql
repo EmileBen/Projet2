@@ -12,5 +12,5 @@ VALUES (0, 'General', 'Why are things called what they are called ?', 0),
 
 
 INSERT INTO messages (id, thread_id, message, creator_id)
-VALUES (0, 0, 'That''s why we there are conventions.', 2),
-       (0, 1, 'I think Avatar is better', 0);
+VALUES (0, 0, 'MESSAGE 1', 2),
+       (0, 1, 'MESSAGE 2', 0);
